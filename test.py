@@ -85,14 +85,14 @@
 
 
   #输出1-50之间所有的奇数，一行5个格式进行输出     
-# count=0
-# for x in range(1,51):
-#     if x%2==0: 
-#         continue
-#     count=count+1
-#     print(x,end=" ")
-#     if(count%5==0):
-#         print("")
+count=0
+for x in range(1,51):
+    if x%2==0: 
+        continue
+    count=count+1
+    print(x,end=" ")
+    if(count%5==0):
+        print("")
         
 #百钱买百鸡
 # for x in range(1,20):
