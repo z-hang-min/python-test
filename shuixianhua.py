@@ -14,4 +14,20 @@ for x in range(100,1000):
         if count%2==0:
             print("")
     
+#求3000-6000之间的奇数中，找出各位数字之和是30的倍数的数字，并计算这些数值之和
+s=0
+for a in range(3000,6001):
+    if a%2==0:
+        continue
+    qian=a//1000
+    bai=a//100%10
+    shi=a//10%10
+    ge=a%10
+    if (qian+bai+shi+ge)%30==0:
+        s=s+a
+        print("正确的数是：",a)
+        print("s是：",s)
+print("s是：",s)
+      
+
 
